@@ -45,6 +45,7 @@ input {
   border-radius: 50px;
   height: 3em;
   width: 100%;
+  /* TODO: Add the search icon on the left-hand side on the search bar */
   background-image: url("/img/search_black_24dp.svg") top-left no-repeat;
   padding-left: 25px;
 }
