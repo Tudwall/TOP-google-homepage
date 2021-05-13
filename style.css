@@ -30,14 +30,34 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 33%;
+  margin: auto;
+  border: 1px black solid;
 }
 
-#main form {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+form {
+  border: 1px solid orange;
+  width: 100%;
+}
+
+input {
+  border: 1px solid #70757a;
+  border-radius: 50px;
+  height: 3em;
+  width: 100%;
+  background-image: url("/img/search_black_24dp.svg") top-left no-repeat;
+  padding-left: 25px;
+}
+
+button {
+  padding: 0.5em;
+  margin: 0.5em;
+  background-color: white;
+  border: 1px solid #f2f2f2;
+  border-radius: 3px;
+}
+button:hover {
+  border: 1px solid #70757a;
 }
 
 footer {
