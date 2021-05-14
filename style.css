@@ -35,6 +35,10 @@ a {
   border: 1px black solid;
 }
 
+#logo {
+  margin-bottom: 1em;
+}
+
 form {
   border: 1px solid orange;
   width: 100%;
