@@ -46,7 +46,7 @@ form {
 }
 
 input {
-  border: 1px solid #70757a;
+  border: 1px solid /*#70757a*/ rgb(225, 225, 225);
   border-radius: 50px;
   height: 3em;
   width: 100%;
@@ -54,15 +54,19 @@ input {
   background-image: url("/img/search_black_24dp.svg") top-left no-repeat;
   padding-left: 25px;
 }
+input:hover {
+  box-shadow: 0px 1.7px 5px #dfdfdf;
+}
 
-button {
+.button {
+  display: inline-block;
   padding: 0.5em;
   margin: 0.5em;
   background-color: white;
   border: 1px solid #f2f2f2;
   border-radius: 3px;
 }
-button:hover {
+.button:hover {
   border: 1px solid #70757a;
 }
 
